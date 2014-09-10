@@ -11,6 +11,6 @@
 #   hubot unapologetically plastic
 
 module.exports = (robot) ->
-  robot.hear /(unapologetic|magic|intersection)/i, (msg) ->
+  robot.hear /(only apple|unapologetic|magic|intersection)/i, (msg) ->
     quote = ">#{msg.message.text}\n                                                                                                                                                                  :ive:"
     msg.send quote
